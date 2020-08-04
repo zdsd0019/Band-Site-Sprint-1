@@ -181,7 +181,7 @@
         margin-bottom: 0;
     }
 
-    @include laptop-m {
+    @include laptop {
         margin-left: 11.25rem;
         margin-right: 11.25rem;
         padding-bottom: 3rem;
@@ -189,11 +189,11 @@
     }
 
     &__musicians__img {
-        width: 18rem;
+        width: 100%;
         margin-bottom: 1.5rem;
 
         @include mobile-m {
-            width: 21.25rem;
+            width: 100%;
         }    
 
         @include mobile-l {
@@ -202,18 +202,18 @@
 
         @include tablet {
             height: 22.625rem;
-            width: 45rem;
+            width: 100%;
         }
 
         @include laptop {
             height: 25rem;
-            width: 52.188rem;
+            width: 100%;
             padding-left: 2.5rem;
         }
 
         @include laptop-m {
             height: 28.125rem;
-            width: 56rem;
+            width: 100%;
             margin-bottom: 3rem;
         }
     }
@@ -221,16 +221,28 @@
     &__quote {
         margin-bottom: 2rem;
         margin-top: 0;
+        font-weight: bold;
+        font-size: 1rem;
+        width: 98%;
+
+        @include tablet {
+            font-weight: bold;
+            font-size: 1.5rem;
+            width: 90%;
+        }
 
         @include laptop {
             padding-left: 2.5rem;
+            font-weight: bold;
+            font-size: 1.5rem;
+            width: 78%;
         }
 
-        @include laptop-m {
-            margin-bottom: 2.5rem;
-            font-weight: bold;
-            font-size: 1.625rem;
-        }
+        // @include laptop-m {
+        //     margin-bottom: 2.5rem;
+        //     font-weight: bold;
+        //     font-size: 1.625rem;
+        // }
     }
 
     &__quote__author {
@@ -333,7 +345,7 @@
         @include laptop {
             height: 10.938rem;
             // width: 16.125rem;
-            width: 100%;
+            width: 30%;
             margin-bottom: 1.5rem;
             margin-right: 1.5rem;
         }
@@ -341,13 +353,9 @@
         @include laptop-m {
             height: 12.0625rem;
             // width: 17.813rem;
-            width: 100%;
+            width: 30%;
             margin-right: 1.5rem;
             margin-bottom: 1.5rem;
-
-            // The only way to fit al three pics in a row 
-            // was making the pic width smaller!! 
-            // These mockups are horrible
         }
     }
 }

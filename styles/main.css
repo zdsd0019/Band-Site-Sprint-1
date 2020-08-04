@@ -223,7 +223,7 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
   .section {
     margin-left: 11.25rem;
     margin-right: 11.25rem;
@@ -232,13 +232,13 @@
 }
 
 .section__musicians__img {
-  width: 18rem;
+  width: 100%;
   margin-bottom: 1.5rem;
 }
 
 @media screen and (min-width: 375px) {
   .section__musicians__img {
-    width: 21.25rem;
+    width: 100%;
   }
 }
 
@@ -251,14 +251,14 @@
 @media screen and (min-width: 768px) {
   .section__musicians__img {
     height: 22.625rem;
-    width: 45rem;
+    width: 100%;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .section__musicians__img {
     height: 25rem;
-    width: 52.188rem;
+    width: 100%;
     padding-left: 2.5rem;
   }
 }
@@ -266,7 +266,7 @@
 @media screen and (min-width: 1200px) {
   .section__musicians__img {
     height: 28.125rem;
-    width: 56rem;
+    width: 100%;
     margin-bottom: 3rem;
   }
 }
@@ -274,19 +274,25 @@
 .section__quote {
   margin-bottom: 2rem;
   margin-top: 0;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 98%;
+}
+
+@media screen and (min-width: 768px) {
+  .section__quote {
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 90%;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .section__quote {
     padding-left: 2.5rem;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .section__quote {
-    margin-bottom: 2.5rem;
     font-weight: bold;
-    font-size: 1.625rem;
+    font-size: 1.5rem;
+    width: 78%;
   }
 }
 
@@ -415,7 +421,7 @@
 @media screen and (min-width: 1024px) {
   .section__photo__gallery__img {
     height: 10.938rem;
-    width: 100%;
+    width: 30%;
     margin-bottom: 1.5rem;
     margin-right: 1.5rem;
   }
@@ -424,7 +430,7 @@
 @media screen and (min-width: 1200px) {
   .section__photo__gallery__img {
     height: 12.0625rem;
-    width: 100%;
+    width: 30%;
     margin-right: 1.5rem;
     margin-bottom: 1.5rem;
   }
