@@ -308,26 +308,31 @@
     }
 
     &__photo__gallery__img {
+        // width: 18rem;
         width: 100%;
         margin-bottom: 1rem;
         
         @include mobile-m {
+            // width: 21.25rem;
             width: 100%; 
         }
 
         @include mobile-l {
+            // width: 24.375rem;
             width: 100%;
         }
 
         @include tablet {
             height: 7.875rem;
-            width: 100%;
+            // width: 14rem;
+            width: 31%;
             margin-bottom: 1.5rem;
             margin-right: 0.813rem;
         }
 
         @include laptop {
             height: 10.938rem;
+            // width: 16.125rem;
             width: 100%;
             margin-bottom: 1.5rem;
             margin-right: 1.5rem;
@@ -335,6 +340,7 @@
 
         @include laptop-m {
             height: 12.0625rem;
+            // width: 17.813rem;
             width: 100%;
             margin-right: 1.5rem;
             margin-bottom: 1.5rem;
