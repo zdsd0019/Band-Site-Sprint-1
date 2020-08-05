@@ -125,7 +125,7 @@
 .hero__img {
   background-image: url("../assets/Logo/hero-img.jpg");
   background-color: #323232;
-  background-size: 100% 6.438rem;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   opacity: 50%;
 }
@@ -258,7 +258,7 @@
 @media screen and (min-width: 1024px) {
   .section__musicians__img {
     height: 25rem;
-    width: 100%;
+    width: 90%;
     padding-left: 2.5rem;
   }
 }
@@ -299,6 +299,7 @@
 .section__quote__author {
   margin-bottom: 2.5rem;
   margin-top: 0;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 1024px) {
@@ -310,7 +311,6 @@
 @media screen and (min-width: 1200px) {
   .section__quote__author {
     padding-left: 2.75rem;
-    font-weight: bold;
     margin-bottom: 3.5rem;
   }
 }
@@ -441,7 +441,6 @@
   color: white;
   background-color: #323232;
   height: 41.625rem;
-  width: 100%;
   padding-top: 1.25rem;
 }
 
