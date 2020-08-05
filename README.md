@@ -29,3 +29,16 @@ For this sprint, you will be focused on building a responsive, web-site based on
 * Class naming for your styling must use BEM
 * Layout of the site must use Flexbox
 * Follow component based design and identify common blocks of code which you can reuse your styles for.
+
+# Diving Deeper
+
+Diving Deeper challenges should only be attempted if all project requirements are met and adding Diving Deeper challenges must not conflict with the existing requirements. The following are suggestions that you can try to take your understanding deeper and go above and beyond.
+
+##  Applying Pseudo-classes
+<b>Hover Effects:</b> Often, nav bars or card components incorporate some sort of hover functionality to help users identify where they are on the page, and also to add some polish to the overall feel of the site.
+
+* Try adding a hover effect in the style of your choosing to the navigation of this web site. See here for a brief overview of pseudo-classes mentioned previously in Synapse.
+* Photo Gallery Hover: Use pseudo-classes to have the images of the gallery grayscale by default, and when the user hovers over each image it returns to color. This feature must make use of a CSS filter.
+
+##  Applying Page Functionality
+<b>Mailto Link:</b> Located in the footer of the web page is the contact information for several agents. Clicking on the email addresses listed should open up a user's mail account where they can begin to draft a message to the specific contact.
