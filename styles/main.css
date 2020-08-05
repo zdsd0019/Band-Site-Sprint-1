@@ -612,4 +612,9 @@
     margin-left: 9.563rem;
   }
 }
+
+.footer__mailto {
+  text-decoration: none;
+  color: white;
+}
 /*# sourceMappingURL=main.css.map */
