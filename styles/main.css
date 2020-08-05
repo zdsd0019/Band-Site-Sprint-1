@@ -91,6 +91,10 @@
   }
 }
 
+.link__decor:hover {
+  opacity: 0.5;
+}
+
 .currently__active {
   border-bottom: 0.3125rem solid white;
   padding-bottom: 1.25rem;

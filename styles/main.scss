@@ -66,29 +66,22 @@
     color: white;
     display: inline-flex;
     justify-content: space-evenly;
-    // margin-right: 3.125rem;
     width: 47%;
     
     @include laptop-m {
         margin-right: 3.5rem;
     }
+
+    &:hover{
+        opacity: 0.5;
+    }
  }
 
 .currently__active {
     border-bottom: 0.3125rem solid white;
-    // width: 10rem;
     padding-bottom: 1.25rem;
 
-    // @include mobile-m {
-    //     width: 11.563rem;
-    // } 
-
-    // @include mobile-l {
-    //     width: 13.125rem;
-    // }
-
     @include tablet {
-        // width: 5.313rem;
         padding-bottom: 2.313rem;
     }
 
@@ -238,12 +231,6 @@
             font-size: 1.5rem;
             width: 78%;
         }
-
-        // @include laptop-m {
-        //     margin-bottom: 2.5rem;
-        //     font-weight: bold;
-        //     font-size: 1.625rem;
-        // }
     }
 
     &__quote__author {
@@ -321,23 +308,19 @@
     }
 
     &__photo__gallery__img {
-        // width: 18rem;
         width: 100%;
         margin-bottom: 1rem;
         
         @include mobile-m {
-            // width: 21.25rem;
             width: 100%; 
         }
 
         @include mobile-l {
-            // width: 24.375rem;
             width: 100%;
         }
 
         @include tablet {
             height: 7.875rem;
-            // width: 14rem;
             width: 31%;
             margin-bottom: 1.5rem;
             margin-right: 0.813rem;
@@ -345,7 +328,6 @@
 
         @include laptop {
             height: 10.938rem;
-            // width: 16.125rem;
             width: 30%;
             margin-bottom: 1.5rem;
             margin-right: 1.5rem;
@@ -353,7 +335,6 @@
 
         @include laptop-m {
             height: 12.0625rem;
-            // width: 17.813rem;
             width: 30%;
             margin-right: 1.5rem;
             margin-bottom: 1.5rem;
