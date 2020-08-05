@@ -82,7 +82,7 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  margin-right: 3.125rem;
+  width: 47%;
 }
 
 @media screen and (min-width: 1200px) {
@@ -93,25 +93,11 @@
 
 .currently__active {
   border-bottom: 0.3125rem solid white;
-  width: 10rem;
   padding-bottom: 1.25rem;
-}
-
-@media screen and (min-width: 375px) {
-  .currently__active {
-    width: 11.563rem;
-  }
-}
-
-@media screen and (min-width: 425px) {
-  .currently__active {
-    width: 13.125rem;
-  }
 }
 
 @media screen and (min-width: 768px) {
   .currently__active {
-    width: 5.313rem;
     padding-bottom: 2.313rem;
   }
 }

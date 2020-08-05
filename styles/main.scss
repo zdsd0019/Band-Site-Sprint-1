@@ -66,7 +66,8 @@
     color: white;
     display: inline-flex;
     justify-content: space-evenly;
-    margin-right: 3.125rem;
+    // margin-right: 3.125rem;
+    width: 47%;
     
     @include laptop-m {
         margin-right: 3.5rem;
@@ -75,19 +76,19 @@
 
 .currently__active {
     border-bottom: 0.3125rem solid white;
-    width: 10rem;
+    // width: 10rem;
     padding-bottom: 1.25rem;
 
-    @include mobile-m {
-        width: 11.563rem;
-    } 
+    // @include mobile-m {
+    //     width: 11.563rem;
+    // } 
 
-    @include mobile-l {
-        width: 13.125rem;
-    }
+    // @include mobile-l {
+    //     width: 13.125rem;
+    // }
 
     @include tablet {
-        width: 5.313rem;
+        // width: 5.313rem;
         padding-bottom: 2.313rem;
     }
 
